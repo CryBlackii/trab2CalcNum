@@ -1,0 +1,29 @@
+# ex1
+a = 2
+b = 3
+x0 = 2.5
+x1 = 2.6
+delta = 0.01
+n = 50
+funcao = x * log10(x) - 1
+phi = (x + 1/log(x))/2
+
+# ex2
+a = 2
+b = 3
+x0 = 2.5
+x1 = 1.7
+delta = 0.1
+n = 50
+funcao = x ** 3 - 10
+phi = (2*x + 10/(x**2))/3
+
+# ex3
+a = 0
+b = 1
+x0 = 0.5
+x1 = 0.6
+delta = 0.005
+n = 50
+funcao = x**3 - 9*x + 3
+phi = (x**3 + 3)/9
